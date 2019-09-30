@@ -1,6 +1,6 @@
 import { Selector, t } from "testcafe";
 
-export default class LoginPage {
+class LoginPage {
   constructor() {
     this.username = Selector("#username");
     this.password = Selector("#password");
@@ -27,3 +27,5 @@ export default class LoginPage {
       .expect(this.location.value);
   }
 }
+
+export default new LoginPage();
