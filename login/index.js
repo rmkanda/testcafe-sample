@@ -17,7 +17,7 @@ class LoginPage {
     await t
       .expect(Selector(".portlet").innerText)
       .contains("Hello, Super. Welcome to OpenMRS.");
-    await t.takeScreenshot("./");
+    await t.takeScreenshot();
   }
 
   async chooseLoginLocation(loginLocation) {

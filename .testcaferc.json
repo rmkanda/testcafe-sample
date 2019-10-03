@@ -5,6 +5,7 @@
   "pageLoadTimeout": 3000,
   "selectorTimeout": 10000,
   "assertionTimeout": 3000,
+  "skip-js-errors": true,
   "takeScreenshotsOnFails": true,
   "screenshotPath": "reports/screenshots/",
   "screenshotPathPattern": "test-${TEST_INDEX}-${USERAGENT}-${FILE_INDEX}.png",
