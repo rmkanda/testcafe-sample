@@ -1,0 +1,8 @@
+version: "3"
+services:
+  web:
+    container_name: func-tests
+    image: testcafe/testcafe
+    command: ["firefox:headless", "/tests"]
+    volumes:
+      - .:/tests
