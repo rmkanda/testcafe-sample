@@ -14,7 +14,7 @@
     "testcafe": "^1.8.3"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.3",
+    "babel-eslint": "^10.1.0",
     "eslint": "^6.8.0",
     "eslint-plugin-testcafe": "^0.2.1"
   }
