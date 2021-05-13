@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "testcafe": "^1.9.4"
+    "testcafe": "^1.14.2"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
